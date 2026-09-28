@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0  8px 20px rgba(0, 0, 0, 0.123) ;
+    border-radius: 20px;
+}
+
+.button {
+    border-radius: 50px;
+    background-color: blue;
+    height: 40px;
+    color: white;
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 25px;
+    padding: 0px 0px 0px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;;
+}
+
+.image {
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 1200px;
+    height: 250px;
+}
+
+img {
+    height: 400px;
+    margin: 10px 6px 0px 6px;
+    border-radius: 20px;
+ }
+ 
+ .div {
+    display:  flex;
+    flex-direction:  row;
+    gap:  15px;
+ }
+
+ .card {
+    width: 225px;
+    height:  400px;
+ }
+
+ .figure {
+   box-shadow: 0  8px 20px rgba(0, 0, 0, 0.123) ;
+   border-radius:  20px;
+ }
